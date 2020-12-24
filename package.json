@@ -1,0 +1,22 @@
+{
+  "name": "superchat-contract",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "repository": "github:aekiti/superchat-contract",
+  "description": "Superchat Contract Management System",
+  "homepage": "https://github.com/aekiti/superchat-contract",
+  "author": "ækiti æmbassy <info@aekiti.com> (https://aekiti.com)",
+  "main": "index.js",  
+  "dependencies": {
+    "@aeternity/aepp-sdk": "^7.7.0",
+    "aeproject-lib": "^2.2.0",
+    "aeproject-logger": "^2.2.0",
+    "aeproject-utils": "^2.2.0",
+    "prompts": "^2.4.0"
+  },
+  "scripts": {
+    "start": "aeproject env",
+    "aetest": "aeproject test"
+  }
+}
